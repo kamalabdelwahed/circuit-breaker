@@ -21,9 +21,9 @@ Description of Microservices:
 Circuit Breaker Implementation:
 
 # Interface classes:
-/role/service/IMovieService (reaches out to Movie service for the movie details)
-/role/service/IActorService (reaches out to Actor service for the actor details)
+1. /role/service/IMovieService (reaches out to Movie service for the movie details)
+2. /role/service/IActorService (reaches out to Actor service for the actor details)
 
 # Implementation classes (with Hystrix delegation):
-/role/service/HystrixDelegatingIMovieServiceImpl 
-/role/service/HystrixDelegatingIActorServiceImpl 
+1. /role/service/HystrixDelegatingIMovieServiceImpl 
+2. /role/service/HystrixDelegatingIActorServiceImpl 
