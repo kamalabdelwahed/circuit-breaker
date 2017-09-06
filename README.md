@@ -27,3 +27,8 @@ Circuit Breaker Implementation:
 # Implementation classes (with Hystrix delegation):
 1. /role/service/HystrixDelegatingIMovieServiceImpl 
 2. /role/service/HystrixDelegatingIActorServiceImpl 
+
+Use the following annotation above the method that may fail
+	@HystrixCommand(fallbackMethod="fallback")
+  
+Note that the fallbackMathod (in case of failure) must be named exactly as set in the @HystrixCommand annotation
