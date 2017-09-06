@@ -10,8 +10,8 @@
 7. Gateway
 
 # Description of Microservices:
-1. Config Service: Service to configure all apps to run on post 8888 (Netflix Config Server)
-2. Discovery Service:  Netflix Eureka Server
+1. Config Service: Service to configure all apps to route to port 8888 (Netflix Config Server)
+2. Discovery Service:  Netflix Eureka Server (allows microservices to be dicoverable by the discovery server)
 3. Actor: Actor service
 4. Genre: Genre service
 5. Movie: Movie service
