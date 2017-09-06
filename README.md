@@ -22,8 +22,10 @@ Circuit Breaker Implementation:
 
 Interface classes:
 /role/service/IMovieService (reaches out to Movie service for the movie details)
+
 /role/service/IActorService (reaches out to Actor service for the actor details)
 
 Implementation classes (with Hystrix delegation):
 /role/service/HystrixDelegatingIMovieServiceImpl 
+
 /role/service/HystrixDelegatingIActorServiceImpl 
